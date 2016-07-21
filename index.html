@@ -4,12 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Form Validation</title>
-    <link rel="stylesheet" type="text/css" href="responsiveform.css">
-	<link rel="stylesheet" media="screen and (max-width: 1200px) and (min-width: 601px)" href="responsiveform1.css" />
-	<link rel="stylesheet" media="screen and (max-width: 600px) and (min-width: 351px)" href="responsiveform2.css" />
-	<link rel="stylesheet" media="screen and (max-width: 350px)" href="responsiveform3.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  	<link rel="stylesheet" media="screen and (max-width: 1200px) and (min-width: 601px)" href="responsiveform1.css" />
+  	<link rel="stylesheet" media="screen and (max-width: 600px) and (min-width: 351px)" href="responsiveform2.css" />
+  	<link rel="stylesheet" media="screen and (max-width: 350px)" href="responsiveform3.css" />
   </head>
   <body>
+    <div id="envelope">
+      <header>
+        <h2>Contact Form</h2>
+      </header>
+      <hr>
+      <form action="" method="post">
+        <label>Your Name </label>
+      	<input type="text" name="name" placeholder="yourname" width="100px;">
+      	<label>Email Address </label>
+      	<input type="text" name="email" placeholder="yourname@gmail.com">
+      	<label>  Phone Number </label>
+      	<input type="text" name="contact" placeholder="123456789">
+      	<label>  Message </label>
+      	<textarea name="message" rows="10" cols="15" placeholder="Message"></textarea>
+      	<input type="submit" value="Send Message" id="submit">
+
+      </form>
+
+    </div>
 
 
   </body>

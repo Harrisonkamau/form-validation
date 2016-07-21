@@ -15,21 +15,23 @@
         <h2>Contact Form</h2>
       </header>
       <hr>
-      <form action="" method="post">
+      <form action="submitted.html" method="post" name="form_validate">
         <label>Your Name </label>
       	<input type="text" name="name" placeholder="yourname" width="100px;">
       	<label>Email Address </label>
-      	<input type="text" name="email" placeholder="yourname@gmail.com">
+      	<input type="text" name="email" placeholder="yourname@gmail.com" id="email">
       	<label> Phone Number </label>
-      	<input type="text" name="contact" placeholder="0123456789">
+      	<input type="text" name="contact" placeholder="0123456789" id="phone">
       	<label>  Message </label>
       	<textarea name="message" rows="10" cols="15" placeholder="Message"></textarea>
-      	<input type="submit" value="Send Message" id="submit">
+      	<input type="submit" value="Send Message" id="submit" onclick="return validate();">
 
       </form>
 
     </div>
 
+    <script src="js/index.js">
 
+    </script>
   </body>
 </html>
